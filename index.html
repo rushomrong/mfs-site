@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo MFS</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="hero bg-base-200 min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Login now!</h1>
+            <p class="py-6">
+              Welcome to MFS login portal. Demo user details: <br /><strong
+                >Email</strong
+              >: - user1@payoomfs.com <br />
+              <strong>Pass</strong>: - 1234
+            </p>
+          </div>
+          <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input
+                  id="userEmail"
+                  type="email"
+                  placeholder="Email"
+                  class="input input-bordered"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input
+                  id="userPassword"
+                  type="password"
+                  placeholder="Password"
+                  maxlength="4"
+                  class="input input-bordered"
+                  required
+                />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover"
+                    >Forgot password?</a
+                  >
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button id="loginBtn" class="btn btn-primary" type="submit">
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- java scripts -->
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
